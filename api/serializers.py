@@ -5,4 +5,4 @@ from .models import GEOPoint
 class GEOPointSerialize(serializers.ModelSerializer):
     class Meta:
         model = GEOPoint
-        fields = ('name', 'lat', 'lng')
+        fields = ['name', 'lat', 'lng']
