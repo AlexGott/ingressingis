@@ -7,6 +7,7 @@ def index(request):
 
 
 def simple_api_view(request):
+    """Тестовое API"""
     response = JsonResponse({
         'data': [
             'You get an phrase from the API!',

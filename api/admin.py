@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import GEOPoint
+from .models import GEOPoint, File
 
 
 class ApiAdmin(admin.ModelAdmin):
